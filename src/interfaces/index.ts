@@ -9,3 +9,8 @@ export interface IHexagon {
   height: string;
   className?: string;
 }
+
+export interface ICoWorkingFacility {
+  key: string;
+  label: string;
+}
