@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { 
+    --font-inter: "Inter", sans-serif;
+    --background-logo-primary1: #000000;
+    --background-logo-primary2: #FFBB00;
+    --primary-button-background: #FFCF4B;
+    --primary-button-border: #FFC422;
+    --secondary-button-background: #F9F9F9;
+    --secondary-button-border: #CEC6C6;
+    --text-color-main: #263238;
+    --text-color-secondary: #65624C;
+    --text-color-gray1: #333333;
+    --text-color-gray2: #4F4F4F;
+    --text-color-gray3: #828282;
+    --text-color-gray4: #B7B6B8;
+    --text-color-gray5: #E0E0E0;
+
+    }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
