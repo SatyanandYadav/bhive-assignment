@@ -21,7 +21,7 @@ const SpaceOverview = () => {
         title={SPACE_OVERVIEW_TITLE_LARGE_SCREEN}
         className="hidden sm:block"
       />
-      <div className="flex flex-col gap-4 pt-6">
+      <div className="flex flex-col gap-4 pt-6 sm:flex-row sm:flex-wrap sm:pt-10 sm:gap-11">
         {spaceOverviewData.map((data) => (
           <SpaceCard key={data.id} id={data.id} />
         ))}

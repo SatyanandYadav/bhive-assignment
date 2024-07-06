@@ -39,7 +39,7 @@ const Thumbnail = ({ id }: { id: string }) => {
       <img
         src={imageMapper[`${activeSpaceOverviewData?.imageKey}`]}
         alt={`thumbnail-image-${activeSpaceOverviewData?.imageKey}`}
-        className="w-full h-[175px] object-cover rounded-md"
+        className="w-full h-[175px] object-cover rounded-md sm:h-[202px]"
       ></img>
       <div
         className="absolute top-2 left-2 bg-gradient-to-r from-[#263238] to-[#2F4B59] 
@@ -51,7 +51,7 @@ const Thumbnail = ({ id }: { id: string }) => {
             alt={`thumbnail-icon-${activeSpaceOverviewData?.type?.toLowerCase()}`}
           ></img>
         </div>
-        <div className="text-[12px] leading-[14px] font-medium tracking-[1.8px] text-background-logo-primary2">
+        <div className="text-[12px] leading-[14px] font-medium tracking-[1.8px] text-background-logo-primary2 sm:text-[14px] sm:leading-[16px] sm:tracking-[2px]">
           {activeSpaceOverviewData?.type}
         </div>
       </div>

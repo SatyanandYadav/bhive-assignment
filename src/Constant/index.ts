@@ -48,4 +48,7 @@ export const SPACE_OVERVIEW_TITLE_LARGE_SCREEN: string = "Our Space Overview";
 
 export const BHIVE_APP_DETAILS_TITLE: string = "Download our app now";
 
+export const BHIVE_APP_DETAILS_DESCRIPTION: string =
+  "Boost your productivity with the BHIVE Workspace app. Elevate your workspace, collaborate efficiently, and unlock exclusive perks.";
+
 export const FOOTER_TEXT = "© Copyright 2024. Bhive Private Limited";

@@ -24,7 +24,7 @@ const IndroductionBodyHeader = () => {
       >
         <source src={HomePageVideo} type="video/mp4" />
       </video>
-      <div className="relative font-inter text-xl leading-tight sm:text-[58px] sm:leading-[70px] text-[#263238] font-bold sm:w-[60%] pl-5 pt-5 sm:pl-32 sm:pt-24">
+      <div className="relative font-inter text-xl leading-tight sm:text-[40px] md:text-[50px] lg:text-[58px] sm:leading-[46px] md:leading-[58px] lg:leading-[70px] text-[#263238] font-bold sm:w-[60%] pl-5 pt-5 pr-5 sm:pr-0 sm:pl-32 sm:pt-24">
         {BOOKING_TITLE.label}
         <p className="inline text-[#FFBB00]">{BOOKING_TITLE.value}</p>
       </div>
