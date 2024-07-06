@@ -45,3 +45,7 @@ export const CO_WORKING_FACILITIES: ICoWorkingFacility[] = [
 export const SPACE_OVERVIEW_TITLE_SMALL_SCREEN: string = "Our Spaces";
 
 export const SPACE_OVERVIEW_TITLE_LARGE_SCREEN: string = "Our Space Overview";
+
+export const BHIVE_APP_DETAILS_TITLE: string = "Download our app now";
+
+export const FOOTER_TEXT = "© Copyright 2024. Bhive Private Limited";

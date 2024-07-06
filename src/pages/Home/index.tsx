@@ -1,5 +1,7 @@
+import BhiveAppDetails from "../../components/BhiveAppDetails";
 import SpaceOverviewContextProvider from "../../components/Context";
 import CoWorkingFacilities from "../../components/CoWorkingFacilties";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import IndroductionBodyHeader from "../../components/IntroductionBodyHeader";
 import SpaceOverview from "../../components/SpaceOverview";
@@ -13,6 +15,8 @@ const Home = () => {
       <SpaceOverviewContextProvider>
         <SpaceOverview />
       </SpaceOverviewContextProvider>
+      <BhiveAppDetails />
+      <Footer />
     </div>
   );
 };
