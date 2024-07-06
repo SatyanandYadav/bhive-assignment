@@ -6,7 +6,7 @@ import HexagonImage from "../../assets/page_assets/Hexagon.png";
 
 const IndroductionBodyHeader = () => {
   return (
-    <div className="relative h-[80vh] overflow-hidden">
+    <div className="relative sm:h-[80vh] overflow-hidden">
       <div className="w-[8.5%] hidden sm:block sm:absolute sm:top-[-11.5%] sm:left-[23.6%] h-[8.5%]">
         <img src={HexagonImage}></img>
       </div>

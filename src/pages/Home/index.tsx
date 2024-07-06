@@ -1,6 +1,8 @@
+import SpaceOverviewContextProvider from "../../components/Context";
 import CoWorkingFacilities from "../../components/CoWorkingFacilties";
 import Header from "../../components/Header";
 import IndroductionBodyHeader from "../../components/IntroductionBodyHeader";
+import SpaceOverview from "../../components/SpaceOverview";
 
 const Home = () => {
   return (
@@ -8,6 +10,9 @@ const Home = () => {
       <Header />
       <IndroductionBodyHeader />
       <CoWorkingFacilities />
+      <SpaceOverviewContextProvider>
+        <SpaceOverview />
+      </SpaceOverviewContextProvider>
     </div>
   );
 };

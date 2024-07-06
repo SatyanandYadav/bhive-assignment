@@ -41,3 +41,7 @@ export const CO_WORKING_FACILITIES: ICoWorkingFacility[] = [
     label: "Sports Area",
   },
 ];
+
+export const SPACE_OVERVIEW_TITLE_SMALL_SCREEN: string = "Our Spaces";
+
+export const SPACE_OVERVIEW_TITLE_LARGE_SCREEN: string = "Our Space Overview";
